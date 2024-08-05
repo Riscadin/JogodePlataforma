@@ -135,7 +135,9 @@ namespace JogodePlataforma
                 GameTimer.Stop();
                 GameOver = true;
                 MENSSAGEM.Text = "Parabéns, você ganhou!";
-                MENSSAGEM.Visible = true;
+                frm_nivel2 abrir = new frm_nivel2();
+                this.Hide();
+                abrir.Show();
                // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Parabéns, você ganhou!";
             }
             else
