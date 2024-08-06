@@ -15,6 +15,12 @@ namespace JogodePlataforma
     {
         bool goleft, goright, pular, GameOver;
         int puloRapido, force, score = 0, playerSpeed = 7, horizontalVelocidade = 5, verticalvelocidade = 3, inimigo1vel = 4 , inimigo4vel = 3, inimigo2vel = 3, inimigo3vel = 3, flag = 0;
+
+        private void inimigo2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public frm_fase3()
         {
             InitializeComponent();
@@ -127,7 +133,7 @@ namespace JogodePlataforma
                 MENSSAGEM.Visible = true;
                 // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Você falhou miseravelmente!";
             }
-            if (Player.Bounds.IntersectsWith(ganhoou.Bounds) /*&& score == 70*/)
+            if (Player.Bounds.IntersectsWith(ganhoou.Bounds) && score == 35)
             {
 
                 GameTimer.Stop();

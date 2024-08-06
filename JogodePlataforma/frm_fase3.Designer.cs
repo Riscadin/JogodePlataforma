@@ -95,6 +95,7 @@
             this.pictureBox53 = new System.Windows.Forms.PictureBox();
             this.pictureBox54 = new System.Windows.Forms.PictureBox();
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
+            this.pictureBox56 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -157,6 +158,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox8
@@ -314,7 +316,7 @@
             this.pictureBox16.BackColor = System.Drawing.Color.Maroon;
             this.pictureBox16.Location = new System.Drawing.Point(287, 182);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(103, 24);
+            this.pictureBox16.Size = new System.Drawing.Size(133, 24);
             this.pictureBox16.TabIndex = 26;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Tag = "plataformplataform";
@@ -744,20 +746,21 @@
             this.inimigo2.BackColor = System.Drawing.Color.Transparent;
             this.inimigo2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo2.BackgroundImage")));
             this.inimigo2.Image = ((System.Drawing.Image)(resources.GetObject("inimigo2.Image")));
-            this.inimigo2.Location = new System.Drawing.Point(325, 150);
+            this.inimigo2.Location = new System.Drawing.Point(325, 157);
             this.inimigo2.Name = "inimigo2";
             this.inimigo2.Size = new System.Drawing.Size(29, 29);
-            this.inimigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.inimigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.inimigo2.TabIndex = 90;
             this.inimigo2.TabStop = false;
             this.inimigo2.Tag = "inimigo";
+            this.inimigo2.Click += new System.EventHandler(this.inimigo2_Click);
             // 
             // inimigo3
             // 
             this.inimigo3.BackColor = System.Drawing.Color.Transparent;
             this.inimigo3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo3.BackgroundImage")));
             this.inimigo3.Image = ((System.Drawing.Image)(resources.GetObject("inimigo3.Image")));
-            this.inimigo3.Location = new System.Drawing.Point(672, 113);
+            this.inimigo3.Location = new System.Drawing.Point(672, 120);
             this.inimigo3.Name = "inimigo3";
             this.inimigo3.Size = new System.Drawing.Size(29, 29);
             this.inimigo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -770,7 +773,7 @@
             this.inimigo4.BackColor = System.Drawing.Color.Transparent;
             this.inimigo4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo4.BackgroundImage")));
             this.inimigo4.Image = ((System.Drawing.Image)(resources.GetObject("inimigo4.Image")));
-            this.inimigo4.Location = new System.Drawing.Point(946, 56);
+            this.inimigo4.Location = new System.Drawing.Point(946, 60);
             this.inimigo4.Name = "inimigo4";
             this.inimigo4.Size = new System.Drawing.Size(29, 29);
             this.inimigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -783,7 +786,7 @@
             this.inimigo1.BackColor = System.Drawing.Color.Transparent;
             this.inimigo1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo1.BackgroundImage")));
             this.inimigo1.Image = ((System.Drawing.Image)(resources.GetObject("inimigo1.Image")));
-            this.inimigo1.Location = new System.Drawing.Point(764, 361);
+            this.inimigo1.Location = new System.Drawing.Point(764, 369);
             this.inimigo1.Name = "inimigo1";
             this.inimigo1.Size = new System.Drawing.Size(29, 29);
             this.inimigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -893,16 +896,33 @@
             this.pictureBox55.TabStop = false;
             this.pictureBox55.Tag = "coin";
             // 
+            // pictureBox56
+            // 
+            this.pictureBox56.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox56.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox56.Image")));
+            this.pictureBox56.Location = new System.Drawing.Point(389, 150);
+            this.pictureBox56.Name = "pictureBox56";
+            this.pictureBox56.Size = new System.Drawing.Size(23, 26);
+            this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox56.TabIndex = 133;
+            this.pictureBox56.TabStop = false;
+            this.pictureBox56.Tag = "coin";
+            // 
             // frm_fase3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(1202, 601);
+            this.Controls.Add(this.pictureBox56);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox18);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.inimigo2);
             this.Controls.Add(this.inimigo4);
             this.Controls.Add(this.inimigo3);
             this.Controls.Add(this.inimigo1);
-            this.Controls.Add(this.inimigo2);
             this.Controls.Add(this.pictureBox55);
             this.Controls.Add(this.pictureBox54);
             this.Controls.Add(this.pictureBox53);
@@ -941,18 +961,14 @@
             this.Controls.Add(this.pictureBox34);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox21);
             this.Controls.Add(this.pictureBox20);
             this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.plataformVertical);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox7);
@@ -1030,6 +1046,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox53)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox55)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1101,5 +1118,6 @@
         private System.Windows.Forms.PictureBox pictureBox53;
         private System.Windows.Forms.PictureBox pictureBox54;
         private System.Windows.Forms.PictureBox pictureBox55;
+        private System.Windows.Forms.PictureBox pictureBox56;
     }
 }

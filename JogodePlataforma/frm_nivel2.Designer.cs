@@ -299,7 +299,7 @@
             this.inimigo3.BackColor = System.Drawing.Color.Transparent;
             this.inimigo3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo3.BackgroundImage")));
             this.inimigo3.Image = ((System.Drawing.Image)(resources.GetObject("inimigo3.Image")));
-            this.inimigo3.Location = new System.Drawing.Point(366, 153);
+            this.inimigo3.Location = new System.Drawing.Point(366, 162);
             this.inimigo3.Name = "inimigo3";
             this.inimigo3.Size = new System.Drawing.Size(29, 29);
             this.inimigo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -335,7 +335,7 @@
             this.inimigo2.BackColor = System.Drawing.Color.Transparent;
             this.inimigo2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo2.BackgroundImage")));
             this.inimigo2.Image = ((System.Drawing.Image)(resources.GetObject("inimigo2.Image")));
-            this.inimigo2.Location = new System.Drawing.Point(387, 288);
+            this.inimigo2.Location = new System.Drawing.Point(387, 293);
             this.inimigo2.Name = "inimigo2";
             this.inimigo2.Size = new System.Drawing.Size(29, 29);
             this.inimigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -500,7 +500,7 @@
             this.inimigo4.BackColor = System.Drawing.Color.Transparent;
             this.inimigo4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo4.BackgroundImage")));
             this.inimigo4.Image = ((System.Drawing.Image)(resources.GetObject("inimigo4.Image")));
-            this.inimigo4.Location = new System.Drawing.Point(1262, 460);
+            this.inimigo4.Location = new System.Drawing.Point(1262, 466);
             this.inimigo4.Name = "inimigo4";
             this.inimigo4.Size = new System.Drawing.Size(29, 29);
             this.inimigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -513,7 +513,7 @@
             this.inimigo5.BackColor = System.Drawing.Color.Transparent;
             this.inimigo5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo5.BackgroundImage")));
             this.inimigo5.Image = ((System.Drawing.Image)(resources.GetObject("inimigo5.Image")));
-            this.inimigo5.Location = new System.Drawing.Point(868, 460);
+            this.inimigo5.Location = new System.Drawing.Point(868, 465);
             this.inimigo5.Name = "inimigo5";
             this.inimigo5.Size = new System.Drawing.Size(29, 29);
             this.inimigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -526,7 +526,7 @@
             this.inimigo6.BackColor = System.Drawing.Color.Transparent;
             this.inimigo6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo6.BackgroundImage")));
             this.inimigo6.Image = ((System.Drawing.Image)(resources.GetObject("inimigo6.Image")));
-            this.inimigo6.Location = new System.Drawing.Point(960, 140);
+            this.inimigo6.Location = new System.Drawing.Point(960, 150);
             this.inimigo6.Name = "inimigo6";
             this.inimigo6.Size = new System.Drawing.Size(29, 29);
             this.inimigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1397,6 +1397,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(1638, 583);
+            this.Controls.Add(this.pictureBox45);
+            this.Controls.Add(this.pictureBox40);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox87);
             this.Controls.Add(this.inimigo6);
             this.Controls.Add(this.inimigo4);
@@ -1476,12 +1480,10 @@
             this.Controls.Add(this.pictureBox48);
             this.Controls.Add(this.pictureBox47);
             this.Controls.Add(this.pictureBox46);
-            this.Controls.Add(this.pictureBox45);
             this.Controls.Add(this.pictureBox44);
             this.Controls.Add(this.pictureBox43);
             this.Controls.Add(this.pictureBox42);
             this.Controls.Add(this.pictureBox41);
-            this.Controls.Add(this.pictureBox40);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.Player);
             this.Controls.Add(this.pictureBox1);
@@ -1489,8 +1491,6 @@
             this.Controls.Add(this.plataformHorizontalll);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.plataformHorizontal);
             this.Controls.Add(this.pictureBox6);
