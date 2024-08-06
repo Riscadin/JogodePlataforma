@@ -13,7 +13,12 @@ namespace JogodePlataforma
     public partial class Form1 : Form
     {
         bool goleft, goright, pular, GameOver;
-        int puloRapido, force, score=0, playerSpeed=7, horizontalVelocidade=5, verticalvelocidade=3,inimigo2vel=4,inimigo3vel=3;
+        int puloRapido, force, score=0, playerSpeed=7, horizontalVelocidade=5, verticalvelocidade=3,inimigo2vel=4,inimigo3vel=3,flag=0;
+
+        private void ganhou_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void MENSSAGEM_Click(object sender, EventArgs e)
         {
@@ -130,14 +135,15 @@ namespace JogodePlataforma
                 MENSSAGEM.Visible = true;
                // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Você falhou miseravelmente!";
             }
-            if(Player.Bounds.IntersectsWith(ganhou.Bounds) && score == 32)
+            if(Player.Bounds.IntersectsWith(ganhou.Bounds)/* && score == 35*/)
             {
+                flag = 1;
                 GameTimer.Stop();
                 GameOver = true;
                 MENSSAGEM.Text = "Parabéns, você ganhou!";
-                frm_nivel2 abrir = new frm_nivel2();
+                frm_principal pr = new frm_principal();
                 this.Hide();
-                abrir.Show();
+                pr.Show();
                // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Parabéns, você ganhou!";
             }
             else

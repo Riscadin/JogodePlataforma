@@ -54,7 +54,7 @@
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.pictureBox48 = new System.Windows.Forms.PictureBox();
-            this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.ganhoou = new System.Windows.Forms.PictureBox();
             this.inimigo4 = new System.Windows.Forms.PictureBox();
             this.inimigo5 = new System.Windows.Forms.PictureBox();
             this.inimigo6 = new System.Windows.Forms.PictureBox();
@@ -129,6 +129,7 @@
             this.pictureBox84 = new System.Windows.Forms.PictureBox();
             this.pictureBox85 = new System.Windows.Forms.PictureBox();
             this.pictureBox86 = new System.Windows.Forms.PictureBox();
+            this.pictureBox87 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -153,7 +154,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ganhoou)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo6)).BeginInit();
@@ -225,6 +226,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox10
@@ -481,17 +483,17 @@
             this.pictureBox48.TabStop = false;
             this.pictureBox48.Tag = "plataformplataform";
             // 
-            // pictureBox49
+            // ganhoou
             // 
-            this.pictureBox49.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox49.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox49.Image")));
-            this.pictureBox49.Location = new System.Drawing.Point(1478, -6);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(161, 112);
-            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox49.TabIndex = 87;
-            this.pictureBox49.TabStop = false;
-            this.pictureBox49.Tag = "";
+            this.ganhoou.BackColor = System.Drawing.Color.Transparent;
+            this.ganhoou.Image = ((System.Drawing.Image)(resources.GetObject("ganhoou.Image")));
+            this.ganhoou.Location = new System.Drawing.Point(1478, -6);
+            this.ganhoou.Name = "ganhoou";
+            this.ganhoou.Size = new System.Drawing.Size(161, 112);
+            this.ganhoou.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ganhoou.TabIndex = 87;
+            this.ganhoou.TabStop = false;
+            this.ganhoou.Tag = "";
             // 
             // inimigo4
             // 
@@ -546,7 +548,7 @@
             // GameTimer
             // 
             this.GameTimer.Enabled = true;
-            this.GameTimer.Interval = 20;
+            this.GameTimer.Interval = 16;
             this.GameTimer.Tick += new System.EventHandler(this.MainGameTimerEvent);
             // 
             // MENSSAGEM
@@ -1377,12 +1379,25 @@
             this.pictureBox86.TabStop = false;
             this.pictureBox86.Tag = "coin";
             // 
+            // pictureBox87
+            // 
+            this.pictureBox87.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox87.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox87.Image")));
+            this.pictureBox87.Location = new System.Drawing.Point(902, 391);
+            this.pictureBox87.Name = "pictureBox87";
+            this.pictureBox87.Size = new System.Drawing.Size(23, 26);
+            this.pictureBox87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox87.TabIndex = 132;
+            this.pictureBox87.TabStop = false;
+            this.pictureBox87.Tag = "coin";
+            // 
             // frm_nivel2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(1638, 583);
+            this.Controls.Add(this.pictureBox87);
             this.Controls.Add(this.inimigo6);
             this.Controls.Add(this.inimigo4);
             this.Controls.Add(this.inimigo5);
@@ -1480,9 +1495,11 @@
             this.Controls.Add(this.plataformHorizontal);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.plataformVertical);
-            this.Controls.Add(this.pictureBox49);
+            this.Controls.Add(this.ganhoou);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_nivel2";
-            this.Text = "frm_nivel2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Rato fujão";
             this.Load += new System.EventHandler(this.frm_nivel2_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ChaveBaixo);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.ChaveCima);
@@ -1510,7 +1527,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ganhoou)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inimigo6)).EndInit();
@@ -1582,6 +1599,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox84)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1611,7 +1629,7 @@
         private System.Windows.Forms.PictureBox pictureBox46;
         private System.Windows.Forms.PictureBox pictureBox47;
         private System.Windows.Forms.PictureBox pictureBox48;
-        private System.Windows.Forms.PictureBox pictureBox49;
+        private System.Windows.Forms.PictureBox ganhoou;
         private System.Windows.Forms.PictureBox inimigo4;
         private System.Windows.Forms.PictureBox inimigo5;
         private System.Windows.Forms.PictureBox inimigo6;
@@ -1686,5 +1704,6 @@
         private System.Windows.Forms.PictureBox pictureBox84;
         private System.Windows.Forms.PictureBox pictureBox85;
         private System.Windows.Forms.PictureBox pictureBox86;
+        private System.Windows.Forms.PictureBox pictureBox87;
     }
 }

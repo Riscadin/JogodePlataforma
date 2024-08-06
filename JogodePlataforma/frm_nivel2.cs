@@ -14,282 +14,14 @@ namespace JogodePlataforma
     {
 
         bool goleft, goright, pular, GameOver;
-        int puloRapido, force, score = 0, playerSpeed = 7, horizontalVelocidade = 5, verticalvelocidade = 3, inimigo2vel = 4, inimigo4vel = 6, inimigo5vel= 6, inimigo6vel = 2, inimigo3vel = 3;
+        int puloRapido, force, score = 0, playerSpeed = 7, horizontalVelocidade = 5, verticalvelocidade = 3, inimigo2vel = 4, inimigo4vel = 6, inimigo5vel= 6, inimigo6vel = 2, inimigo3vel = 3, flag =0;
 
-        private void pictureBox31_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox30_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox34_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox33_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox20_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox19_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox17_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox22_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox21_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox72_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox73_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox74_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox63_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox64_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox65_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox69_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox70_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox71_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox66_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox67_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox68_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox51_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox52_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox53_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox54_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox50_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox60_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox61_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox62_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox55_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox56_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox57_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox58_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox59_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox76_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox75_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox81_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox82_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox83_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox80_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox78_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox79_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox77_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox32_Click(object sender, EventArgs e)
-        {
-
-        }
 
         public frm_nivel2()
         {
@@ -417,12 +149,16 @@ namespace JogodePlataforma
                 MENSSAGEM.Visible = true;
                 // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Você falhou miseravelmente!";
             }
-            if (Player.Bounds.IntersectsWith(ganhou.Bounds) && score == 70)
+            if (Player.Bounds.IntersectsWith(ganhoou.Bounds) && score == 70)
             {
+               
                 GameTimer.Stop();
+                flag = 2;
                 GameOver = true;
                 MENSSAGEM.Text = "Parabéns, você ganhou!";
-                MENSSAGEM.Visible = true;
+                frm_principal pr = new frm_principal();
+                pr.Show();
+                this.Hide();
                 // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Parabéns, você ganhou!";
             }
             else
@@ -512,34 +248,5 @@ namespace JogodePlataforma
 
         }
 
-        private void pictureBox25_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox24_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox27_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox29_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox28_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox26_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

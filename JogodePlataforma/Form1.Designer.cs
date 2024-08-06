@@ -135,7 +135,9 @@
             // 
             // txtscore
             // 
+            this.txtscore.BackColor = System.Drawing.Color.Transparent;
             this.txtscore.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtscore.ForeColor = System.Drawing.Color.Black;
             this.txtscore.Location = new System.Drawing.Point(0, -1);
             this.txtscore.Name = "txtscore";
             this.txtscore.Size = new System.Drawing.Size(393, 95);
@@ -266,13 +268,14 @@
             this.ganhou.TabIndex = 12;
             this.ganhou.TabStop = false;
             this.ganhou.Tag = "";
+            this.ganhou.Click += new System.EventHandler(this.ganhou_Click);
             // 
             // inimigo3
             // 
             this.inimigo3.BackColor = System.Drawing.Color.Transparent;
             this.inimigo3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo3.BackgroundImage")));
             this.inimigo3.Image = ((System.Drawing.Image)(resources.GetObject("inimigo3.Image")));
-            this.inimigo3.Location = new System.Drawing.Point(364, 334);
+            this.inimigo3.Location = new System.Drawing.Point(385, 336);
             this.inimigo3.Name = "inimigo3";
             this.inimigo3.Size = new System.Drawing.Size(29, 29);
             this.inimigo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -296,14 +299,14 @@
             // GameTimer
             // 
             this.GameTimer.Enabled = true;
-            this.GameTimer.Interval = 20;
+            this.GameTimer.Interval = 16;
             this.GameTimer.Tick += new System.EventHandler(this.MainGameTimerEvent);
             // 
             // MENSSAGEM
             // 
             this.MENSSAGEM.BackColor = System.Drawing.Color.White;
             this.MENSSAGEM.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MENSSAGEM.Location = new System.Drawing.Point(-2, 392);
+            this.MENSSAGEM.Location = new System.Drawing.Point(-3, 368);
             this.MENSSAGEM.Name = "MENSSAGEM";
             this.MENSSAGEM.Size = new System.Drawing.Size(664, 41);
             this.MENSSAGEM.TabIndex = 26;
@@ -350,7 +353,7 @@
             // 
             // pictureBox35
             // 
-            this.pictureBox35.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox35.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
             this.pictureBox35.Location = new System.Drawing.Point(333, 641);
             this.pictureBox35.Name = "pictureBox35";
@@ -362,7 +365,7 @@
             // 
             // pictureBox36
             // 
-            this.pictureBox36.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox36.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox36.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox36.Image")));
             this.pictureBox36.Location = new System.Drawing.Point(370, 641);
             this.pictureBox36.Name = "pictureBox36";
@@ -374,7 +377,7 @@
             // 
             // pictureBox37
             // 
-            this.pictureBox37.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox37.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
             this.pictureBox37.Location = new System.Drawing.Point(407, 641);
             this.pictureBox37.Name = "pictureBox37";
@@ -386,7 +389,7 @@
             // 
             // pictureBox38
             // 
-            this.pictureBox38.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox38.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
             this.pictureBox38.Location = new System.Drawing.Point(447, 641);
             this.pictureBox38.Name = "pictureBox38";
@@ -398,7 +401,7 @@
             // 
             // pictureBox39
             // 
-            this.pictureBox39.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox39.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
             this.pictureBox39.Location = new System.Drawing.Point(484, 641);
             this.pictureBox39.Name = "pictureBox39";
@@ -410,7 +413,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(228, 569);
             this.pictureBox2.Name = "pictureBox2";
@@ -422,7 +425,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(265, 569);
             this.pictureBox4.Name = "pictureBox4";
@@ -434,7 +437,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(302, 569);
             this.pictureBox9.Name = "pictureBox9";
@@ -446,7 +449,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.Location = new System.Drawing.Point(113, 516);
             this.pictureBox11.Name = "pictureBox11";
@@ -458,7 +461,7 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(150, 516);
             this.pictureBox15.Name = "pictureBox15";
@@ -470,7 +473,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
             this.pictureBox16.Location = new System.Drawing.Point(187, 516);
             this.pictureBox16.Name = "pictureBox16";
@@ -482,7 +485,7 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
             this.pictureBox17.Location = new System.Drawing.Point(293, 469);
             this.pictureBox17.Name = "pictureBox17";
@@ -494,7 +497,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(330, 469);
             this.pictureBox18.Name = "pictureBox18";
@@ -506,7 +509,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(367, 469);
             this.pictureBox19.Name = "pictureBox19";
@@ -518,7 +521,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(407, 469);
             this.pictureBox20.Name = "pictureBox20";
@@ -530,7 +533,7 @@
             // 
             // pictureBox21
             // 
-            this.pictureBox21.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(444, 469);
             this.pictureBox21.Name = "pictureBox21";
@@ -542,7 +545,7 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(517, 407);
             this.pictureBox22.Name = "pictureBox22";
@@ -554,7 +557,7 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
             this.pictureBox23.Location = new System.Drawing.Point(554, 407);
             this.pictureBox23.Name = "pictureBox23";
@@ -566,7 +569,7 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
             this.pictureBox24.Location = new System.Drawing.Point(591, 407);
             this.pictureBox24.Name = "pictureBox24";
@@ -578,7 +581,7 @@
             // 
             // pictureBox25
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
             this.pictureBox25.Location = new System.Drawing.Point(293, 337);
             this.pictureBox25.Name = "pictureBox25";
@@ -590,7 +593,7 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
             this.pictureBox26.Location = new System.Drawing.Point(330, 337);
             this.pictureBox26.Name = "pictureBox26";
@@ -602,7 +605,7 @@
             // 
             // pictureBox27
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
             this.pictureBox27.Location = new System.Drawing.Point(367, 337);
             this.pictureBox27.Name = "pictureBox27";
@@ -614,7 +617,7 @@
             // 
             // pictureBox28
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
             this.pictureBox28.Location = new System.Drawing.Point(407, 337);
             this.pictureBox28.Name = "pictureBox28";
@@ -626,7 +629,7 @@
             // 
             // pictureBox29
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
             this.pictureBox29.Location = new System.Drawing.Point(444, 337);
             this.pictureBox29.Name = "pictureBox29";
@@ -638,7 +641,7 @@
             // 
             // pictureBox30
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
             this.pictureBox30.Location = new System.Drawing.Point(172, 271);
             this.pictureBox30.Name = "pictureBox30";
@@ -650,7 +653,7 @@
             // 
             // pictureBox31
             // 
-            this.pictureBox31.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
             this.pictureBox31.Location = new System.Drawing.Point(209, 271);
             this.pictureBox31.Name = "pictureBox31";
@@ -662,7 +665,7 @@
             // 
             // pictureBox32
             // 
-            this.pictureBox32.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
             this.pictureBox32.Location = new System.Drawing.Point(246, 271);
             this.pictureBox32.Name = "pictureBox32";
@@ -674,7 +677,7 @@
             // 
             // pictureBox33
             // 
-            this.pictureBox33.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
             this.pictureBox33.Location = new System.Drawing.Point(303, 191);
             this.pictureBox33.Name = "pictureBox33";
@@ -686,7 +689,7 @@
             // 
             // pictureBox34
             // 
-            this.pictureBox34.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox34.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
             this.pictureBox34.Location = new System.Drawing.Point(340, 191);
             this.pictureBox34.Name = "pictureBox34";
@@ -698,7 +701,7 @@
             // 
             // pictureBox40
             // 
-            this.pictureBox40.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox40.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
             this.pictureBox40.Location = new System.Drawing.Point(377, 191);
             this.pictureBox40.Name = "pictureBox40";
@@ -710,7 +713,7 @@
             // 
             // pictureBox41
             // 
-            this.pictureBox41.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox41.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox41.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox41.Image")));
             this.pictureBox41.Location = new System.Drawing.Point(417, 191);
             this.pictureBox41.Name = "pictureBox41";
@@ -722,7 +725,7 @@
             // 
             // pictureBox42
             // 
-            this.pictureBox42.BackColor = System.Drawing.Color.PowderBlue;
+            this.pictureBox42.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox42.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox42.Image")));
             this.pictureBox42.Location = new System.Drawing.Point(454, 191);
             this.pictureBox42.Name = "pictureBox42";
@@ -737,6 +740,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(654, 761);
             this.Controls.Add(this.MENSSAGEM);
             this.Controls.Add(this.pictureBox10);
@@ -791,6 +795,7 @@
             this.Controls.Add(this.plataformVertical);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rato fujão";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ChaveBaixo);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.ChaveCima);
