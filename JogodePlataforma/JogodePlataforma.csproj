@@ -58,6 +58,12 @@
     <Compile Include="frm_fase3.Designer.cs">
       <DependentUpon>frm_fase3.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_fase4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_fase4.Designer.cs">
+      <DependentUpon>frm_fase4.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_nivel2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_fase3.resx">
       <DependentUpon>frm_fase3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_fase4.resx">
+      <DependentUpon>frm_fase4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_nivel2.resx">
       <DependentUpon>frm_nivel2.cs</DependentUpon>

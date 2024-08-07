@@ -44,5 +44,12 @@ namespace JogodePlataforma
             this.Hide();
             f3.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frm_fase4 f4 = new frm_fase4();
+            this.Hide();
+            f4.Show();
+        }
     }
 }
