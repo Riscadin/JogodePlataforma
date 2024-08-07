@@ -1076,7 +1076,7 @@
             this.inimigo13.Image = ((System.Drawing.Image)(resources.GetObject("inimigo13.Image")));
             this.inimigo13.Location = new System.Drawing.Point(335, 172);
             this.inimigo13.Name = "inimigo13";
-            this.inimigo13.Size = new System.Drawing.Size(29, 29);
+            this.inimigo13.Size = new System.Drawing.Size(23, 29);
             this.inimigo13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo13.TabIndex = 158;
             this.inimigo13.TabStop = false;
@@ -1089,7 +1089,7 @@
             this.inimigo15.Image = ((System.Drawing.Image)(resources.GetObject("inimigo15.Image")));
             this.inimigo15.Location = new System.Drawing.Point(1317, 172);
             this.inimigo15.Name = "inimigo15";
-            this.inimigo15.Size = new System.Drawing.Size(29, 29);
+            this.inimigo15.Size = new System.Drawing.Size(18, 29);
             this.inimigo15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo15.TabIndex = 160;
             this.inimigo15.TabStop = false;
@@ -1102,7 +1102,7 @@
             this.inimigo10.Image = ((System.Drawing.Image)(resources.GetObject("inimigo10.Image")));
             this.inimigo10.Location = new System.Drawing.Point(1182, 350);
             this.inimigo10.Name = "inimigo10";
-            this.inimigo10.Size = new System.Drawing.Size(29, 29);
+            this.inimigo10.Size = new System.Drawing.Size(15, 29);
             this.inimigo10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo10.TabIndex = 161;
             this.inimigo10.TabStop = false;
@@ -1115,7 +1115,7 @@
             this.inimigo12.Image = ((System.Drawing.Image)(resources.GetObject("inimigo12.Image")));
             this.inimigo12.Location = new System.Drawing.Point(149, 351);
             this.inimigo12.Name = "inimigo12";
-            this.inimigo12.Size = new System.Drawing.Size(29, 29);
+            this.inimigo12.Size = new System.Drawing.Size(23, 29);
             this.inimigo12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo12.TabIndex = 162;
             this.inimigo12.TabStop = false;
@@ -1128,7 +1128,7 @@
             this.inimigo9.Image = ((System.Drawing.Image)(resources.GetObject("inimigo9.Image")));
             this.inimigo9.Location = new System.Drawing.Point(161, 517);
             this.inimigo9.Name = "inimigo9";
-            this.inimigo9.Size = new System.Drawing.Size(29, 29);
+            this.inimigo9.Size = new System.Drawing.Size(17, 29);
             this.inimigo9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo9.TabIndex = 164;
             this.inimigo9.TabStop = false;
@@ -1141,7 +1141,7 @@
             this.inimigo8.Image = ((System.Drawing.Image)(resources.GetObject("inimigo8.Image")));
             this.inimigo8.Location = new System.Drawing.Point(275, 519);
             this.inimigo8.Name = "inimigo8";
-            this.inimigo8.Size = new System.Drawing.Size(29, 29);
+            this.inimigo8.Size = new System.Drawing.Size(17, 29);
             this.inimigo8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo8.TabIndex = 165;
             this.inimigo8.TabStop = false;
@@ -1154,7 +1154,7 @@
             this.inimigo7.Image = ((System.Drawing.Image)(resources.GetObject("inimigo7.Image")));
             this.inimigo7.Location = new System.Drawing.Point(514, 519);
             this.inimigo7.Name = "inimigo7";
-            this.inimigo7.Size = new System.Drawing.Size(29, 29);
+            this.inimigo7.Size = new System.Drawing.Size(16, 29);
             this.inimigo7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo7.TabIndex = 166;
             this.inimigo7.TabStop = false;
@@ -1167,7 +1167,7 @@
             this.inimigo6.Image = ((System.Drawing.Image)(resources.GetObject("inimigo6.Image")));
             this.inimigo6.Location = new System.Drawing.Point(704, 519);
             this.inimigo6.Name = "inimigo6";
-            this.inimigo6.Size = new System.Drawing.Size(29, 29);
+            this.inimigo6.Size = new System.Drawing.Size(18, 29);
             this.inimigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo6.TabIndex = 167;
             this.inimigo6.TabStop = false;
@@ -1180,7 +1180,7 @@
             this.inimigo5.Image = ((System.Drawing.Image)(resources.GetObject("inimigo5.Image")));
             this.inimigo5.Location = new System.Drawing.Point(1354, 519);
             this.inimigo5.Name = "inimigo5";
-            this.inimigo5.Size = new System.Drawing.Size(29, 29);
+            this.inimigo5.Size = new System.Drawing.Size(21, 29);
             this.inimigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo5.TabIndex = 168;
             this.inimigo5.TabStop = false;
@@ -1193,7 +1193,7 @@
             this.inimigo2.Image = ((System.Drawing.Image)(resources.GetObject("inimigo2.Image")));
             this.inimigo2.Location = new System.Drawing.Point(693, 694);
             this.inimigo2.Name = "inimigo2";
-            this.inimigo2.Size = new System.Drawing.Size(29, 29);
+            this.inimigo2.Size = new System.Drawing.Size(18, 29);
             this.inimigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo2.TabIndex = 169;
             this.inimigo2.TabStop = false;
@@ -1206,7 +1206,7 @@
             this.inimigo3.Image = ((System.Drawing.Image)(resources.GetObject("inimigo3.Image")));
             this.inimigo3.Location = new System.Drawing.Point(389, 694);
             this.inimigo3.Name = "inimigo3";
-            this.inimigo3.Size = new System.Drawing.Size(29, 29);
+            this.inimigo3.Size = new System.Drawing.Size(18, 29);
             this.inimigo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo3.TabIndex = 170;
             this.inimigo3.TabStop = false;
@@ -1219,7 +1219,7 @@
             this.inimigo1.Image = ((System.Drawing.Image)(resources.GetObject("inimigo1.Image")));
             this.inimigo1.Location = new System.Drawing.Point(1312, 693);
             this.inimigo1.Name = "inimigo1";
-            this.inimigo1.Size = new System.Drawing.Size(29, 29);
+            this.inimigo1.Size = new System.Drawing.Size(23, 29);
             this.inimigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo1.TabIndex = 172;
             this.inimigo1.TabStop = false;
@@ -1361,8 +1361,9 @@
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.plataformVertical);
             this.Controls.Add(this.ganhoou);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_fase4";
-            this.Text = "frm_fase4";
+            this.Text = "Rato fujão";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ChaveBaixo);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.ChaveCima);
             ((System.ComponentModel.ISupportInitialize)(this.plataformVertical)).EndInit();

@@ -748,8 +748,8 @@
             this.inimigo2.Image = ((System.Drawing.Image)(resources.GetObject("inimigo2.Image")));
             this.inimigo2.Location = new System.Drawing.Point(325, 157);
             this.inimigo2.Name = "inimigo2";
-            this.inimigo2.Size = new System.Drawing.Size(29, 29);
-            this.inimigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.inimigo2.Size = new System.Drawing.Size(23, 29);
+            this.inimigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo2.TabIndex = 90;
             this.inimigo2.TabStop = false;
             this.inimigo2.Tag = "inimigo";
@@ -760,9 +760,9 @@
             this.inimigo3.BackColor = System.Drawing.Color.Transparent;
             this.inimigo3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("inimigo3.BackgroundImage")));
             this.inimigo3.Image = ((System.Drawing.Image)(resources.GetObject("inimigo3.Image")));
-            this.inimigo3.Location = new System.Drawing.Point(672, 120);
+            this.inimigo3.Location = new System.Drawing.Point(680, 120);
             this.inimigo3.Name = "inimigo3";
-            this.inimigo3.Size = new System.Drawing.Size(29, 29);
+            this.inimigo3.Size = new System.Drawing.Size(21, 29);
             this.inimigo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo3.TabIndex = 91;
             this.inimigo3.TabStop = false;
@@ -775,7 +775,7 @@
             this.inimigo4.Image = ((System.Drawing.Image)(resources.GetObject("inimigo4.Image")));
             this.inimigo4.Location = new System.Drawing.Point(946, 60);
             this.inimigo4.Name = "inimigo4";
-            this.inimigo4.Size = new System.Drawing.Size(29, 29);
+            this.inimigo4.Size = new System.Drawing.Size(19, 29);
             this.inimigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo4.TabIndex = 92;
             this.inimigo4.TabStop = false;
@@ -788,7 +788,7 @@
             this.inimigo1.Image = ((System.Drawing.Image)(resources.GetObject("inimigo1.Image")));
             this.inimigo1.Location = new System.Drawing.Point(764, 369);
             this.inimigo1.Name = "inimigo1";
-            this.inimigo1.Size = new System.Drawing.Size(29, 29);
+            this.inimigo1.Size = new System.Drawing.Size(20, 29);
             this.inimigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.inimigo1.TabIndex = 93;
             this.inimigo1.TabStop = false;
