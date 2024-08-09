@@ -742,7 +742,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(654, 761);
+            this.ClientSize = new System.Drawing.Size(670, 800);
             this.Controls.Add(this.MENSSAGEM);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox5);
@@ -795,6 +795,8 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.plataformVertical);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(670, 800);
+            this.MinimumSize = new System.Drawing.Size(670, 800);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rato fujão";

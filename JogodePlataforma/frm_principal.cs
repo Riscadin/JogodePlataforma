@@ -22,14 +22,14 @@ namespace JogodePlataforma
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
-            this.Hide();
+            
             f1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
                 frm_nivel2 n2 = new frm_nivel2();
-                this.Hide();
+                
                 n2.Show();
         }
 
@@ -41,14 +41,14 @@ namespace JogodePlataforma
         private void button3_Click(object sender, EventArgs e)
         {
             frm_fase3 f3 =new frm_fase3();
-            this.Hide();
+            
             f3.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             frm_fase4 f4 = new frm_fase4();
-            this.Hide();
+            
             f4.Show();
         }
     }

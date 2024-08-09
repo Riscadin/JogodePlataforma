@@ -16,6 +16,14 @@ namespace JogodePlataforma
         bool goleft, goright, pular, GameOver;
         int puloRapido, force, score = 0, playerSpeed = 7, horizontalVelocidade = 5, verticalvelocidade = 3, inimigo1vel = 4 , inimigo4vel = 3, inimigo2vel = 3, inimigo3vel = 3, flag = 0;
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            frm_principal pr = new frm_principal();
+            this.Hide();
+            pr.Show();
+        }
+
         private void inimigo2_Click(object sender, EventArgs e)
         {
 
