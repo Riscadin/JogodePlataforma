@@ -148,9 +148,7 @@ namespace JogodePlataforma
                 GameTimer.Stop();
                 GameOver = true;
                 MENSSAGEM.Text = "Parabéns, você ganhou!";
-                frm_principal pr = new frm_principal();
                 this.Hide();
-                pr.Show();
                // txtscore.Text = "Pontuação: " + score + Environment.NewLine + "Parabéns, você ganhou!";
             }
             else
